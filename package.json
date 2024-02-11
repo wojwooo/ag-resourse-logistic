@@ -1,0 +1,14 @@
+{
+    "name": "@ag-resourse-logistic/repo",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "workspaces": [
+        "backend",
+        "frontend",
+        "packages/core"
+    ],
+    "scripts": {
+        "dev": "npm run dev --workspace=frontend"
+    }
+}
